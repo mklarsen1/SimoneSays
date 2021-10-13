@@ -7,15 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083B832726438C4500222171 /* SimoneSayings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083B832626438C4500222171 /* SimoneSayings.swift */; };
+		083FAEF4264AE715007C22A6 /* ScrollingLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083FAEF3264AE715007C22A6 /* ScrollingLevelViewController.swift */; };
+		0851773126E90DA0004972B0 /* SimoneData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0851772F26E90DA0004972B0 /* SimoneData.xcdatamodeld */; };
+		086113FA2646DA03005C04CD /* NumberWang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086113F92646DA03005C04CD /* NumberWang.swift */; };
 		087E819825F9D01300C5AAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087E819725F9D01300C5AAD3 /* AppDelegate.swift */; };
 		087E819A25F9D01300C5AAD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087E819925F9D01300C5AAD3 /* SceneDelegate.swift */; };
 		087E819C25F9D01300C5AAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087E819B25F9D01300C5AAD3 /* ViewController.swift */; };
 		087E819F25F9D01300C5AAD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087E819D25F9D01300C5AAD3 /* Main.storyboard */; };
 		087E81A125F9D01500C5AAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087E81A025F9D01500C5AAD3 /* Assets.xcassets */; };
 		087E81A425F9D01500C5AAD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087E81A225F9D01500C5AAD3 /* LaunchScreen.storyboard */; };
+		087E81AD25F9D02800C5AAD3 /* ShapeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087E81AC25F9D02800C5AAD3 /* ShapeHelper.swift */; };
+		087E81B125F9EBF000C5AAD3 /* Read Me.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 087E81B025F9EBF000C5AAD3 /* Read Me.rtf */; };
+		087E81BD25FA890900C5AAD3 /* Kid Games.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 087E81BC25FA890900C5AAD3 /* Kid Games.ttf */; };
+		08860B2D270264DE00A9E57A /* little_women_short.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08860B2C270264DE00A9E57A /* little_women_short.txt */; };
+		08860B2F270264E400A9E57A /* little_women.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08860B2E270264E400A9E57A /* little_women.txt */; };
+		088B9E512668970400459892 /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 088B9E502668970300459892 /* fire.sks */; };
+		0894D9EA26E1241500344C6A /* EDME2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9E626E1241400344C6A /* EDME2.wav */; };
+		0894D9EB26E1241500344C6A /* EDMA1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9E726E1241400344C6A /* EDMA1.wav */; };
+		0894D9EC26E1241500344C6A /* EDMC2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9E826E1241500344C6A /* EDMC2.wav */; };
+		0894D9ED26E1241500344C6A /* EDMA2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9E926E1241500344C6A /* EDMA2.wav */; };
+		0894D9F226E13AED00344C6A /* BigPulseA1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9EE26E13AED00344C6A /* BigPulseA1.wav */; };
+		0894D9F326E13AED00344C6A /* BigPulseE2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9EF26E13AED00344C6A /* BigPulseE2.wav */; };
+		0894D9F426E13AED00344C6A /* BigPulseA2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9F026E13AED00344C6A /* BigPulseA2.wav */; };
+		0894D9F526E13AED00344C6A /* BigPulseC2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9F126E13AED00344C6A /* BigPulseC2.wav */; };
+		0894D9FA26E1411E00344C6A /* SilenceA2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9F626E1411D00344C6A /* SilenceA2.wav */; };
+		0894D9FB26E1411E00344C6A /* SilenceC2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9F726E1411D00344C6A /* SilenceC2.wav */; };
+		0894D9FC26E1411E00344C6A /* SilenceE2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9F826E1411E00344C6A /* SilenceE2.wav */; };
+		0894D9FD26E1411E00344C6A /* SilenceA1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0894D9F926E1411E00344C6A /* SilenceA1.wav */; };
+		08B4DA1126B46E0300B840B7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B4DA0C26B46DA900B840B7 /* GameKit.framework */; };
+		08B4DA1726B4716400B840B7 /* GameCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4DA1626B4716400B840B7 /* GameCenterVC.swift */; };
+		08BFADE3270E9E34007C6728 /* info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 08BFADE2270E9E33007C6728 /* info.txt */; };
+		08BFADE5270F3503007C6728 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = 08BFADE4270F3503007C6728 /* info.html */; };
+		08BFADF62715D9F2007C6728 /* info_folder in Resources */ = {isa = PBXBuildFile; fileRef = 08BFADF52715D9F2007C6728 /* info_folder */; };
+		08C6B73126DE9919009E88CE /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C6B73026DE9919009E88CE /* HapticsManager.swift */; };
+		08D6F9F9261EB46D00626488 /* MarchSister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D6F9F8261EB46D00626488 /* MarchSister.swift */; };
+		08DC07512643A1C60054C6FA /* PiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DC07502643A1C60054C6FA /* PiViewController.swift */; };
+		08DCD447260FE49100A79C84 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DCD446260FE49100A79C84 /* LevelViewController.swift */; };
+		08E165CD26D6DBF2004CF037 /* HarpA2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165C926D6DBF2004CF037 /* HarpA2.wav */; };
+		08E165CE26D6DBF2004CF037 /* HarpC2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165CA26D6DBF2004CF037 /* HarpC2.wav */; };
+		08E165CF26D6DBF2004CF037 /* HarpA1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165CB26D6DBF2004CF037 /* HarpA1.wav */; };
+		08E165D026D6DBF2004CF037 /* HarpE2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165CC26D6DBF2004CF037 /* HarpE2.wav */; };
+		08E165E926D71CD5004CF037 /* TromboneC2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165E526D71CD5004CF037 /* TromboneC2.wav */; };
+		08E165EA26D71CD5004CF037 /* TromboneA2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165E626D71CD5004CF037 /* TromboneA2.wav */; };
+		08E165EB26D71CD5004CF037 /* TromboneA1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165E726D71CD5004CF037 /* TromboneA1.wav */; };
+		08E165EC26D71CD5004CF037 /* TromboneE2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 08E165E826D71CD5004CF037 /* TromboneE2.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		083B832626438C4500222171 /* SimoneSayings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimoneSayings.swift; sourceTree = "<group>"; };
+		083FAEF3264AE715007C22A6 /* ScrollingLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingLevelViewController.swift; sourceTree = "<group>"; };
+		0851773026E90DA0004972B0 /* SimoneData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimoneData.xcdatamodel; sourceTree = "<group>"; };
+		086113F92646DA03005C04CD /* NumberWang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberWang.swift; sourceTree = "<group>"; };
 		087E819425F9D01300C5AAD3 /* Simone Says.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simone Says.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087E819725F9D01300C5AAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		087E819925F9D01300C5AAD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +67,41 @@
 		087E81A025F9D01500C5AAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		087E81A325F9D01500C5AAD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		087E81A525F9D01500C5AAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087E81AC25F9D02800C5AAD3 /* ShapeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeHelper.swift; sourceTree = "<group>"; };
+		087E81B025F9EBF000C5AAD3 /* Read Me.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Read Me.rtf"; sourceTree = "<group>"; };
+		087E81BC25FA890900C5AAD3 /* Kid Games.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kid Games.ttf"; sourceTree = "<group>"; };
+		08860B2C270264DE00A9E57A /* little_women_short.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = little_women_short.txt; sourceTree = "<group>"; };
+		08860B2E270264E400A9E57A /* little_women.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = little_women.txt; sourceTree = "<group>"; };
+		088B9E502668970300459892 /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		0894D9E626E1241400344C6A /* EDME2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EDME2.wav; sourceTree = "<group>"; };
+		0894D9E726E1241400344C6A /* EDMA1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EDMA1.wav; sourceTree = "<group>"; };
+		0894D9E826E1241500344C6A /* EDMC2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EDMC2.wav; sourceTree = "<group>"; };
+		0894D9E926E1241500344C6A /* EDMA2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = EDMA2.wav; sourceTree = "<group>"; };
+		0894D9EE26E13AED00344C6A /* BigPulseA1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BigPulseA1.wav; sourceTree = "<group>"; };
+		0894D9EF26E13AED00344C6A /* BigPulseE2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BigPulseE2.wav; sourceTree = "<group>"; };
+		0894D9F026E13AED00344C6A /* BigPulseA2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BigPulseA2.wav; sourceTree = "<group>"; };
+		0894D9F126E13AED00344C6A /* BigPulseC2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BigPulseC2.wav; sourceTree = "<group>"; };
+		0894D9F626E1411D00344C6A /* SilenceA2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SilenceA2.wav; sourceTree = "<group>"; };
+		0894D9F726E1411D00344C6A /* SilenceC2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SilenceC2.wav; sourceTree = "<group>"; };
+		0894D9F826E1411E00344C6A /* SilenceE2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SilenceE2.wav; sourceTree = "<group>"; };
+		0894D9F926E1411E00344C6A /* SilenceA1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = SilenceA1.wav; sourceTree = "<group>"; };
+		08B4DA0C26B46DA900B840B7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		08B4DA1626B4716400B840B7 /* GameCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterVC.swift; sourceTree = "<group>"; };
+		08BFADE2270E9E33007C6728 /* info.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = info.txt; sourceTree = "<group>"; };
+		08BFADE4270F3503007C6728 /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		08BFADF52715D9F2007C6728 /* info_folder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = info_folder; sourceTree = "<group>"; };
+		08C6B73026DE9919009E88CE /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		08D6F9F8261EB46D00626488 /* MarchSister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarchSister.swift; sourceTree = "<group>"; };
+		08DC07502643A1C60054C6FA /* PiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiViewController.swift; sourceTree = "<group>"; };
+		08DCD446260FE49100A79C84 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		08E165C926D6DBF2004CF037 /* HarpA2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HarpA2.wav; sourceTree = "<group>"; };
+		08E165CA26D6DBF2004CF037 /* HarpC2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HarpC2.wav; sourceTree = "<group>"; };
+		08E165CB26D6DBF2004CF037 /* HarpA1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HarpA1.wav; sourceTree = "<group>"; };
+		08E165CC26D6DBF2004CF037 /* HarpE2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HarpE2.wav; sourceTree = "<group>"; };
+		08E165E526D71CD5004CF037 /* TromboneC2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TromboneC2.wav; sourceTree = "<group>"; };
+		08E165E626D71CD5004CF037 /* TromboneA2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TromboneA2.wav; sourceTree = "<group>"; };
+		08E165E726D71CD5004CF037 /* TromboneA1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TromboneA1.wav; sourceTree = "<group>"; };
+		08E165E826D71CD5004CF037 /* TromboneE2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TromboneE2.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B4DA1126B46E0300B840B7 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +119,10 @@
 		087E818B25F9D01300C5AAD3 = {
 			isa = PBXGroup;
 			children = (
+				087E81B025F9EBF000C5AAD3 /* Read Me.rtf */,
 				087E819625F9D01300C5AAD3 /* Simone Says */,
 				087E819525F9D01300C5AAD3 /* Products */,
+				08B4DA0B26B46DA900B840B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +139,82 @@
 			children = (
 				087E819725F9D01300C5AAD3 /* AppDelegate.swift */,
 				087E819925F9D01300C5AAD3 /* SceneDelegate.swift */,
-				087E819B25F9D01300C5AAD3 /* ViewController.swift */,
+				087E81AC25F9D02800C5AAD3 /* ShapeHelper.swift */,
+				08C6B73026DE9919009E88CE /* HapticsManager.swift */,
+				08D6F9F8261EB46D00626488 /* MarchSister.swift */,
+				083B832626438C4500222171 /* SimoneSayings.swift */,
+				086113F92646DA03005C04CD /* NumberWang.swift */,
+				08BFADE6270F3981007C6728 /* WKWebView Files */,
+				088B9E502668970300459892 /* fire.sks */,
+				0851772F26E90DA0004972B0 /* SimoneData.xcdatamodeld */,
+				08DCD449260FE4A000A79C84 /* View Controllers */,
 				087E819D25F9D01300C5AAD3 /* Main.storyboard */,
 				087E81A025F9D01500C5AAD3 /* Assets.xcassets */,
+				08E165C826D6DBDD004CF037 /* Sounds */,
 				087E81A225F9D01500C5AAD3 /* LaunchScreen.storyboard */,
 				087E81A525F9D01500C5AAD3 /* Info.plist */,
+				087E81BC25FA890900C5AAD3 /* Kid Games.ttf */,
 			);
 			path = "Simone Says";
+			sourceTree = "<group>";
+		};
+		08B4DA0B26B46DA900B840B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B4DA0C26B46DA900B840B7 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08BFADE6270F3981007C6728 /* WKWebView Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BFADF52715D9F2007C6728 /* info_folder */,
+				08BFADE4270F3503007C6728 /* info.html */,
+				08BFADE2270E9E33007C6728 /* info.txt */,
+				08860B2E270264E400A9E57A /* little_women.txt */,
+				08860B2C270264DE00A9E57A /* little_women_short.txt */,
+			);
+			path = "WKWebView Files";
+			sourceTree = "<group>";
+		};
+		08DCD449260FE4A000A79C84 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				087E819B25F9D01300C5AAD3 /* ViewController.swift */,
+				08B4DA1626B4716400B840B7 /* GameCenterVC.swift */,
+				08DC07502643A1C60054C6FA /* PiViewController.swift */,
+				08DCD446260FE49100A79C84 /* LevelViewController.swift */,
+				083FAEF3264AE715007C22A6 /* ScrollingLevelViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		08E165C826D6DBDD004CF037 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0894D9F926E1411E00344C6A /* SilenceA1.wav */,
+				0894D9F626E1411D00344C6A /* SilenceA2.wav */,
+				0894D9F726E1411D00344C6A /* SilenceC2.wav */,
+				0894D9F826E1411E00344C6A /* SilenceE2.wav */,
+				0894D9EE26E13AED00344C6A /* BigPulseA1.wav */,
+				0894D9F026E13AED00344C6A /* BigPulseA2.wav */,
+				0894D9F126E13AED00344C6A /* BigPulseC2.wav */,
+				0894D9EF26E13AED00344C6A /* BigPulseE2.wav */,
+				0894D9E726E1241400344C6A /* EDMA1.wav */,
+				0894D9E926E1241500344C6A /* EDMA2.wav */,
+				0894D9E826E1241500344C6A /* EDMC2.wav */,
+				0894D9E626E1241400344C6A /* EDME2.wav */,
+				08E165E726D71CD5004CF037 /* TromboneA1.wav */,
+				08E165E626D71CD5004CF037 /* TromboneA2.wav */,
+				08E165E526D71CD5004CF037 /* TromboneC2.wav */,
+				08E165E826D71CD5004CF037 /* TromboneE2.wav */,
+				08E165CB26D6DBF2004CF037 /* HarpA1.wav */,
+				08E165C926D6DBF2004CF037 /* HarpA2.wav */,
+				08E165CA26D6DBF2004CF037 /* HarpC2.wav */,
+				08E165CC26D6DBF2004CF037 /* HarpE2.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +274,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BFADF62715D9F2007C6728 /* info_folder in Resources */,
+				087E81BD25FA890900C5AAD3 /* Kid Games.ttf in Resources */,
+				08E165EC26D71CD5004CF037 /* TromboneE2.wav in Resources */,
+				08E165D026D6DBF2004CF037 /* HarpE2.wav in Resources */,
+				0894D9F226E13AED00344C6A /* BigPulseA1.wav in Resources */,
+				0894D9F326E13AED00344C6A /* BigPulseE2.wav in Resources */,
+				08860B2F270264E400A9E57A /* little_women.txt in Resources */,
+				08E165EB26D71CD5004CF037 /* TromboneA1.wav in Resources */,
+				0894D9FD26E1411E00344C6A /* SilenceA1.wav in Resources */,
+				08BFADE5270F3503007C6728 /* info.html in Resources */,
 				087E81A425F9D01500C5AAD3 /* LaunchScreen.storyboard in Resources */,
+				08E165EA26D71CD5004CF037 /* TromboneA2.wav in Resources */,
+				0894D9F426E13AED00344C6A /* BigPulseA2.wav in Resources */,
+				0894D9FB26E1411E00344C6A /* SilenceC2.wav in Resources */,
 				087E81A125F9D01500C5AAD3 /* Assets.xcassets in Resources */,
 				087E819F25F9D01300C5AAD3 /* Main.storyboard in Resources */,
+				08E165CF26D6DBF2004CF037 /* HarpA1.wav in Resources */,
+				087E81B125F9EBF000C5AAD3 /* Read Me.rtf in Resources */,
+				08860B2D270264DE00A9E57A /* little_women_short.txt in Resources */,
+				0894D9ED26E1241500344C6A /* EDMA2.wav in Resources */,
+				08E165E926D71CD5004CF037 /* TromboneC2.wav in Resources */,
+				0894D9EC26E1241500344C6A /* EDMC2.wav in Resources */,
+				088B9E512668970400459892 /* fire.sks in Resources */,
+				08E165CD26D6DBF2004CF037 /* HarpA2.wav in Resources */,
+				0894D9FC26E1411E00344C6A /* SilenceE2.wav in Resources */,
+				0894D9FA26E1411E00344C6A /* SilenceA2.wav in Resources */,
+				08BFADE3270E9E34007C6728 /* info.txt in Resources */,
+				0894D9F526E13AED00344C6A /* BigPulseC2.wav in Resources */,
+				0894D9EB26E1241500344C6A /* EDMA1.wav in Resources */,
+				0894D9EA26E1241500344C6A /* EDME2.wav in Resources */,
+				08E165CE26D6DBF2004CF037 /* HarpC2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +315,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083B832726438C4500222171 /* SimoneSayings.swift in Sources */,
+				08DC07512643A1C60054C6FA /* PiViewController.swift in Sources */,
+				086113FA2646DA03005C04CD /* NumberWang.swift in Sources */,
+				08B4DA1726B4716400B840B7 /* GameCenterVC.swift in Sources */,
+				083FAEF4264AE715007C22A6 /* ScrollingLevelViewController.swift in Sources */,
 				087E819C25F9D01300C5AAD3 /* ViewController.swift in Sources */,
+				08C6B73126DE9919009E88CE /* HapticsManager.swift in Sources */,
+				08D6F9F9261EB46D00626488 /* MarchSister.swift in Sources */,
+				08DCD447260FE49100A79C84 /* LevelViewController.swift in Sources */,
+				087E81AD25F9D02800C5AAD3 /* ShapeHelper.swift in Sources */,
 				087E819825F9D01300C5AAD3 /* AppDelegate.swift in Sources */,
+				0851773126E90DA0004972B0 /* SimoneData.xcdatamodeld in Sources */,
 				087E819A25F9D01300C5AAD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,13 +475,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = KW4V82KPX8;
 				INFOPLIST_FILE = "Simone Says/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "art.mattmakes.Simone-Says";
+				PRODUCT_BUNDLE_IDENTIFIER = "art.mattmakes.Simone-Says-Memory-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +495,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = KW4V82KPX8;
 				INFOPLIST_FILE = "Simone Says/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "art.mattmakes.Simone-Says";
+				PRODUCT_BUNDLE_IDENTIFIER = "art.mattmakes.Simone-Says-Memory-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,6 +531,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0851772F26E90DA0004972B0 /* SimoneData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0851773026E90DA0004972B0 /* SimoneData.xcdatamodel */,
+			);
+			currentVersion = 0851773026E90DA0004972B0 /* SimoneData.xcdatamodel */;
+			path = SimoneData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 087E818C25F9D01300C5AAD3 /* Project object */;
 }

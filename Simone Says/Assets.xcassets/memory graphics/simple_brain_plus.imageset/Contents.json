@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "simple_brain_plus.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Simone Says Memory Game Info</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="style.css" rel="stylesheet">
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      @font-face {
+        font-family: "Kid Games";
+        src: url('assets/KidGames.ttf') format("truetype");
+      }
+
+      h1.customfont {
+        font-family: "Kid Games", Verdana, Tahoma;
+      }
+
+      .cheatfont {
+        font-family: "Kid Games", Verdana, Tahoma;
+        font-size: 24pt;
+        padding-right: 40px;
+        /* text-shadow: 2px 2px 5px black; */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+
+      }
+
+      .blue {
+        color: blue;
+      }
+
+      .green {
+        color: green;
+      }
+
+      .red {
+        color: red;
+      }
+
+      .yellow {
+        color: yellow;
+      }
+
+      .dark_grey {
+        color: #666666;
+      }
+
+      .light_grey {
+        color: #AAAAAA;
+        padding-right: 20px;
+      }
+
+      .white {
+        color: white;
+        padding-right: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .btn-primary {
+        margin-bottom: 10px;
+        width: 24%;
+      }
+
+
+      .wrapper-buttons {
+        /* display: flex; */
+      }
+
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="heroes.css" rel="stylesheet"> -->
+  </head>
+  <body>
+
+<main>
+  <h1 class="visually-hidden">Simone Says Memory Game</h1>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 my-5 pt-5 text-center wrapper-buttons" id="top">
+    <div class="button-row">
+    <div class="btn btn-primary" style="background: blue; border-color: black;"><a href="#colorblind">Colorblind</a></div>
+    <div class="btn btn-primary" style="background: green; border-color: black;"><a href="#blind">Blind</a></div>
+    <div class="btn btn-primary" style="background: red; border-color: black;"><a href="#colorForCheaters">Color for Cheaters</a></div>
+    <div class="btn btn-primary" style="background: yellow; border-color: black;"><a style="color: black;" href="#liarsCheat">Liar's Cheat</a></div>
+  </div>
+    <div class="btn btn-primary" style="background: green; border-color: black;"><a href="#braintwist">Brain Twist</a></div>
+    <div class="btn btn-primary" style="background: red; border-color: black;"><a href="#spokenword">Spoken Word</a></div>
+    <div class="btn btn-primary" style="background: yellow; border-color: black;"><a style="color: black;" href="#colorblindcheat">Colorblind Cheat</a></div>
+    <div class="btn btn-primary" style="background: blue; border-color: black;"><a href="#colortornado">Color Tornado</a></div>
+    <br>
+    <div class="btn btn-primary" style="background: red; border-color: black;"><a href="#colorblindtornado">Colorblind Tornado</a></div>
+    <div class="btn btn-primary" style="background: yellow; border-color: black;"><a style="color: black;" href="#pattern">Constant Pattern</a></div>
+    <div class="btn btn-primary" style="background: blue; border-color: black;"><a href="#multiplayer1">Multiplayer</a></div>
+    <div class="btn btn-primary" style="background: white; border-color: white;">&nbsp;</div>
+    <br>
+    <div class="btn btn-primary" style="background: black; width: 97%;"><a style="color: lightgreen;" href="#pi">Digits of Pi</a></div>
+
+    <div>
+      <div class="btn btn-primary" style="background-color: white;"><a style="color: black;" href="#extras">Buttons and Extras</a></div>
+      <div class="btn btn-primary" style="background-color: white;"><a style="color: black;" href="#about">About the Game</a></div>
+    </div>
+
+
+  </div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="original">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">ORIGINAL</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">You pretty much already know how to do this, but we'll go over it one more time. Lights will flash. Remember their order and try to play it back.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/original.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="original gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="colorblind">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="gamewheel" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">COLORBLIND</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Remembering four vivid colors is so easy, a baby could do it!* Will a monochromatic outlook change how you remember the sequence?**
+        <br><br>* Maybe.
+        <br>** Probably not. But try it!</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/colorblind.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="colorblind gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="blind">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">BLIND</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Unsaturated colors didn't bother you, eh? How about no colors at all? Remember the sequence on the circle without aid of color or shade.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/blind.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="blind gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="colorForCheaters">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">COLOR FOR CHEATERS</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Maybe you don't want to go through all that bother of seeing a sequence and then playing it back. Maybe just pressing buttons is more your style. Well, this level is for <b>you</b>.</p>
+      <p class="lead mb-4">Colors on the left are spelled out. All you have to do is press them in sequence. Oh, and your performance is timed, so it's worth your while to tap more faster, for bragging rights if nothing else.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/colorForCheaters.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="color for cheaters gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="liarsCheat">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">LIAR'S CHEAT</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">In case cheating is too easy, or you find that you are cheating only yourself, try the level that befuddles your brain by presenting the right colors on top of the wrong words.</p>
+      <p class="lead mb-4">See also:</p>
+      <span class="yellow cheatfont">BLUE</span>
+      <span class="blue cheatfont">YELLOW</span>
+      <span class="red cheatfont">GREEN</span>
+      <span class="green cheatfont">RED</span>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/liarsCheat.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="liar's cheat gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="braintwist">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">BRAIN TWIST</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Watch the sequence carefully. When it's time to remember the sequence, choose anything <i>except</i> the color given in the sequence.</p>
+      <p class="mb-4">So a sequence of <span style="color: blue;">blue</span>-<span style="color: red;">red</span>-<span style="color: green;">green</span>-<span style="color: yellow;">yellow</span>
+        could be played back as <span style="color: red;">red</span>-<span style="color: blue;">blue</span>-<span style="color: yellow;">yellow</span>-<span style="color: green;">green</span>,
+        or <span style="color:green;">green-green</span>-<span style="color: blue;">blue</span>-<span style="color:green;">green</span>,
+        or <span style="color:yellow;">yellow-yellow-yellow</span>-<span style="color:green;">green</span>... anything except any of the colors of the original.</p>
+      <p class="mb-4">Sound twisted? <b>Good</b>. That's the brain twist.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/brainTwist.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="brain twist gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="spokenword">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">SPOKEN WORD</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">If you got tired of all that visual input and just feel like hearing the colors, give this level a try. Sound on, if you feel like remembering more than guessing.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/spokenWord.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="spoken word gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="colorblindcheat">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">COLORBLIND FOR CHEATERS</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Cheating with text and only a range of grey values for colors.</p>
+      <p class="mb-4 cheatfont">
+        <span class="white">WHITE</span>
+        BLACK<br>
+        <span class="light_grey">LIGHT GREY</span>
+        <span class="dark_grey">DARK GREY</span>
+      </p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/colorBlindCheat.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="colorblind cheat gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="colortornado">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">COLOR TORNADO</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">This challenge tests your color memory against your spatial memory.</p>
+      <p class="mb-4">Every time you successfully complete a sequence, the circle will rotate a quarter turn.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/colorTornado.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="color tornado gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="colorblindtornado">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">COLORBLIND TORNADO</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">You pretty much already know how to do this, but we'll go over it one more time. Lights will flash. Remember their order and try to play it back.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="pattern">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">CONSTANT PATTERN</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">If you love following the leader but hate random choices, this is the level for you. It never varies.</p>
+      <p class="lead mb-4"> Try it today, tomorrow, every day until you throw away your phone and it's always the same: red, blue, green, blue, blue, blue, yellow... you get the picture.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 300px;">
+      <div class="container px-5" height=300>
+        <img src="assets/images/constant.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="constant pattern gif" width="600" height="277" loading="lazy">
+        <!-- <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="multiplayer1">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+    <h1 class="display-5 fw-bold customfont">MULTIPLAYER</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">You pretty much already know how to do this, but we'll go over it one more time. Lights will flash. Remember their order and try to play it back.</p>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom" id="pi">
+    <a href="#top"><img class="mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"><span style="font-size: 80px; color: black; font-family: Times New Roman"> + &#x3C0;</span></a>
+    <h1 class="display-5 fw-bold customfont">DIGITS OF PI</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Use two modes to learn or play back the digits of Pi. Tap the play/pause button to toggle between them.</p>
+    </div>
+    <!-- <div class="overflow-hidden" style="max-height: 600px;"> -->
+      <div>
+      <div class="container px-5" height=300>
+        <div class="cheatfont">LEARN MODE</div>
+        <img src="assets/images/pi1.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="digits of pi gif" width="600" height="277" loading="lazy">
+        <div class="cheatfont">GO! MODE</div>
+        <img src="assets/images/pi2.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="digits of pi second gif" width="600" height="277" loading="lazy">
+        <br>
+        <button class="btn btn-primary" style="background: lightgray; border-color: black; width: 100%" onclick="showCheat()">Cheat?</button>
+        <div id="cheatInfo" style="display: none;">
+          <p class="mb-4" style="color: #AAAAAA;">Pro tip: swipe up to cheat. Buttons will light up to show you the next digit in the sequence.</p>
+            <img src="assets/images/pi3.gif" class="img-fluid border rounded-3 shadow-lg mb-4" alt="digits of pi cheat gif" width="600" height="277" loading="lazy">
+          <p class="mb-4">Do cheaters ever prosper? <br><em>No.</em><br> Do we all sometimes need to look smart in front of our smarter friends? <br><em>Yes.</em></p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 my-5 text-center">
+  <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+  <h1 class="display-3 fw-bold customfont" id="extras">EXTRAS</h1>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <img class="d-block mx-auto mb-4" src="assets/images/lightbulbs.svg" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold customfont">THE DO-OVER</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">If you get a little lost, don't worry! Lightbulbs at the left will allow you to try again with the same sequence. You can have a maximum of three per attempt. Use them wisely!</p>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <img class="d-block mx-auto mb-4" src="assets/images/rabbit.svg" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold customfont">FASTER</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Want your replay to play a bit faster? Press the rabbit button to speed up replay. </p>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <img class="d-block mx-auto mb-4" src="assets/images/turtle.svg" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold customfont">SLOWER</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Want to slow down replay? Press the turtle button for more time between flashes.</p>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/replay.gif" alt="" width="600" height="158"></a>
+    <h1 class="display-5 fw-bold customfont">SPEED INDICATOR</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Your current speed is indicated by the replay indicator between the rabbit and turtle.</p>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <img class="d-block mx-auto mb-4" src="assets/images/puzzlepiece.svg" alt="" width="72" height="72">
+    <h1 class="display-5 fw-bold customfont">DO NOT PRESS</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Do not press this button.</p>
+    </div>
+  </div>
+
+
+  <div class="b-example-divider"></div>
+
+  <div class="px-4 my-5 text-center">
+    <a href="#top"><img class="d-block mx-auto mb-4" src="assets/images/color_wheel.png" alt="" width="72" height="72"></a>
+  <h1 class="display-3 fw-bold customfont" id="about">ABOUT</h1>
+  <p class="lead mb-4">More information about my game and memory.</p>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+</main>
+
+  <script>
+  function showCheat() {
+    var x = document.getElementById("cheatInfo");
+    if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  }
+  </script>
+
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+  </body>
+</html>
